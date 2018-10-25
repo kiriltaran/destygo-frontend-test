@@ -4,11 +4,12 @@
 
 Le but de l’exercice est de réaliser l’interface pour mettre en place des Quick Replies comme suit:
 
-
+![objective_qr](https://s3.eu-central-1.amazonaws.com/destygo-public/assets/img/images/QuickRepliesObjective.jpg)
 
 On donne les précisions suivantes:
 1. Text content, templates et Quick Replies sont toutes les 3 des box collapsible. Il faut remplir les contenus de Text Content et Templates avec un texte aléatoire.
 2. Les Quick Reply sont Reorderable, on remarquera l’image à gauche d’une QR un icone pour permetre de réordonner les QR avec la valeur order_index de l’objet.
+3. les emoji sont copier de l'exterieur (pas besoin de les ajouter)
 
 ## Utilisation du repo
 
