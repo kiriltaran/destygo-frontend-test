@@ -1,25 +1,29 @@
-# Exercice Technique pour developpeur front-end @Destygo
+# Technical test for Front-end developer @Destygo
 
-## Objectif
+## Objective
 
-Le but de l’exercice est de réaliser l’interface pour mettre en place des Quick Replies comme suit:
+The objective of the test is to build the following interface to set-up Quick Replies (shortcuts in chatbot interfaces):
 
 ![objective_qr](https://s3.eu-central-1.amazonaws.com/destygo-public/assets/img/images/QuickRepliesObjective.jpg)
 
-On donne les précisions suivantes:
-1. Text content, templates et Quick Replies sont toutes les 3 des box collapsible. Il faut remplir les contenus de Text Content et Templates avec un texte aléatoire.
-2. Les Quick Reply sont Reorderable, on remarquera l’image à gauche d’une QR un icone pour permetre de réordonner les QR avec la valeur order_index de l’objet.
-3. les emoji sont copier de l'exterieur (pas besoin de les ajouter)
+We give the following details:
+1. `Text content`, `templates` and `Quick replies` are all collapsible box. For `Text content` and `templates`, the box content has to be random text.
+2. Quick-replies are orderable, you can change their `order_index` fields that are linked to the order they will appear.
+3. Emojis are comming from the outside, you do not have to import any lib to paste them.
 
-## Utilisation du repo
+## Use the repository
 
-Par facilité, le repo a été construit grâce a VueCli. Pour l'utiliser:
-1. `yarn install` (pour les dépendances)
-2. `yarn serve` pour lancer un dev server avec webpack
+To facilitate the candidate work, the repository was build with VueCLI. To use it, just start in your terminal the following commands:
+```
+$> yarn install
+$> yarn serve
+```
 
-## Data de départ
+Please ensure to work in a fork or branch of this repository to make easy the evaluation of you code.
 
-On donne la structure de départ en json pour les QR suivante (elle est egalement initialise dans le fichier de depart):
+## Start data
+
+We give the following starting state (in JSON, you will find it in the code too):
 ```
 [
     {
@@ -46,9 +50,11 @@ On donne la structure de départ en json pour les QR suivante (elle est egalemen
 ]
 ```
 
-## Librairies utiles
+This data can increase or decrease if you add a Quick Reply or delete one respectively.
 
-Le candidat peut utiliser les librairies suivantes s’il en voit l’utilité:
+## Useful libs
+
+The candidate can use any javascript librairies he find relevant. If he do not have any idea, he can use one of the followings:
 - vue.Dragabble https://github.com/SortableJS/Vue.Draggable
 - vue-slide-up-down https://github.com/danieldiekmeier/vue-slide-up-down
 - vue-animate https://github.com/asika32764/vue2-animate
